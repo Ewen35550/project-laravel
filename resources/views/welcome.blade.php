@@ -45,8 +45,9 @@
                     </svg>
                 </div>
 
+                <h2>Laravel x Linux | Ewen MyDigitalSchool</h2>
                 @auth
-                <h1>{{ Auth::user()->name }}</h1>
+                <h2>Bienvenue {{ Auth::user()->name }}</h2>
                 @endauth
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
